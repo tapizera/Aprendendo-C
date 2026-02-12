@@ -1,4 +1,4 @@
-// data: 10/02/2026
+// data: 10/02/2026, ter
 #include <stdio.h>
 
 int main() {

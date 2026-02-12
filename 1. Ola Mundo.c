@@ -1,4 +1,4 @@
-// data: 09/02/2026
+// data: 09/02/2026, seg
 #include <stdio.h> 
 
 int main() {
