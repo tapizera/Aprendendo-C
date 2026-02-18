@@ -8,10 +8,12 @@ int main () {
     int a;
     int b;
 
-    int soma = (int) a + (int) b;
-    int sub = a - b;
-    int multi = a * b;
-    float div = a / b;
+    // // Operadores aritméticos
+    // int soma = (int) a + (int) b;
+    // int sub = a - b;
+    // int multi = a * b;
+    // float div = a / b;
+    // float modul = a % b;
 
     // // Operadores de atribuição
     // a += 2; // a será 12
@@ -29,10 +31,11 @@ int main () {
     scanf("%d", &b);
 
     //pritando as operações
-    printf("%d + %d = %d\n", a, b, soma);
-    printf("%d - %d = %d\n", a, b, sub);
-    printf("%d * %d = %d\n", a, b, multi);
-    printf("%d / %d = %.2f\n", a, b, div); 
+    printf("%d + %d = %d\n", a, b, a + b);
+    printf("%d - %d = %d\n", a, b, a - b);
+    printf("%d * %d = %d\n", a, b, a * b);
+    printf("%d / %d = %.2f\n", a, b, (float) a / b); 
+    printf("%d °/o %d = %d\n", a, b, a % b);
         // %2f - errado 2 antes da virgula , %.2f - 2 dps da virgula
 
     return 0;
