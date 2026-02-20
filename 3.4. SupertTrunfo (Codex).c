@@ -1,4 +1,4 @@
-// data: 20/02/2026, qui (feito pelo Codex GPT)
+// data: 20/02/2026, sex (feito pelo Codex GPT)
 #include <stdio.h>
 #include <stdlib.h>
 

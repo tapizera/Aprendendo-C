@@ -73,7 +73,7 @@ int main () {
     float pibpercapita2 = (float) pib2 / (int) populacao2;
     float superpower2 = populacao2 + area2 + pib2 + turisticos2 + densidade2 + pibpercapita2;
 
-    /*
+    
     // Comparar Atributos ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     int atributopcomparar;
     printf("escolha um atributo para comparar: ");
@@ -87,18 +87,24 @@ int main () {
     
     // Definir Vencedor ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     if (atributopcomparar == 1) {
-        printf("\n --- Hora da Batalha! --- \n");
-        printf(" %s/%s VS %s/%s\n", cidade, estado, cidade2, estado2);
-        printf(" Atributo escolhido: Populcao\n")
         if (populacao > populacao2) {
+            // sim, tem q colocar tudo dentro do if do if (n pode ser fora do if do if)
+            printf("\n --- Hora da Batalha! --- \n");
+            printf(" %s/%s VS %s/%s\n", cidade, estado, cidade2, estado2);
+            printf(" Atributo escolhido: Populcao\n");
             printf("%s/%s - 1 X 0 - %s/%s \n", cidade, estado, cidade2, estado2);
         }
         else if (populacao2 > populacao) {
             printf("\n --- Hora da Batalha! --- \n");
+            printf(" %s/%s VS %s/%s\n", cidade, estado, cidade2, estado2);
+            printf(" Atributo escolhido: Populcao\n");
             printf(" %s/%s - 0 X 1 - %s/%s\n", cidade, estado, cidade2, estado2);
+        }
     }
     // aí tem q fazer isso pra cada atributo, não vou fazer pq é melhor criar um função, mas n sei fazer isso ainda então.. vamo seguido!
-    */
+    // isso aparentemente chama-se:
+    // >>> ESTRUTURA DE REPETIÇÃO ANINHANDAS <<<
+    
 
     // se superpower > superpower2 : carta 1 ganhou, se nao : carta 2 ganhou
     int carta1wins = superpower > superpower2;
